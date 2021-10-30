@@ -1,0 +1,292 @@
+body {
+  font-family: "Be Vietnam", sans-serif;
+  margin: 0;
+}
+.logo {
+  margin-left: 165px;
+}
+.header {
+  margin-top: 75.13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 75.13px;
+}
+.listaHeader ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #242e52;
+}
+.listaHeader li {
+  margin-right: 28px;
+}
+.boton {
+  margin-right: 195px;
+  background-color: #f3603b;
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 2px 5px #999;
+}
+.boton:hover {
+  background-color: aqua;
+}
+h2 {
+  color: #232c50;
+  width: 439px;
+  size: 58px;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 279px;
+  gap: 205px;
+}
+.subtitulo {
+  color: #323851;
+}
+.parrafo {
+  color: #b3b2b7;
+}
+.section3 {
+  margin-right: 169px;
+  margin-left: 165px;
+  display: flex;
+  justify-content: space-around;
+  gap: 55px;
+}
+.listaCentral {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.listanoOrd {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  display: flex;
+  align-items: baseline;
+}
+.boton2 {
+  margin-right: 23px;
+  background-color: #f3603b;
+  color: #ffffff;
+  border-radius: 90px;
+  border: none;
+  box-shadow: 2px 2px 5px #999;
+  width: 50px;
+}
+.boton2:hover {
+  background-color: aqua;
+}
+.subtCentral {
+  color: #242e53;
+  text-align: center;
+  size: 43px;
+  font-weight: 900;
+  height: 61px;
+}
+.fotos {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 258px;
+  margin-right: 258px;
+  margin-top: 75px;
+}
+.ali {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 258px;
+  margin-right: 258px;
+  margin-top: 75px;
+  color: #242e53;
+  font-weight: 700;
+}
+.textoFinal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 85px;
+  margin-right: 20px;
+  margin-top: 21px;
+  color: #b9b9c1;
+  gap: 29px;
+}
+.botonFinal {
+  background-color: #f3603b;
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 2px 5px #999;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botonFinal :hover {
+  background-color: aqua;
+}
+.tituloFinal {
+  color: #ffffff;
+  margin-top: 180px;
+  height: 224px;
+  width: 1440px;
+  size: 40px;
+  font-weight: 700;
+}
+.ultimoBoton {
+  margin-left: 195px;
+  background-color: #ffffff;
+  color: #f3603b;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 2px 5px #999;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  height: 44px;
+  width: 134px;
+  font-size: 13.18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ultimoBoton :hover {
+  background-color: aqua;
+}
+
+.naranja {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3613c;
+  padding: 0 160px;
+  height: 224px;
+}
+.bodyFinal {
+  display: flex;
+  justify-content: center;
+}
+.bodyNegro {
+  background-color: #1e1e26;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.textoPeque {
+  color: #8c8c94;
+  size: 12.5px;
+  margin-left: 10px;
+}
+.botonGo {
+  margin-right: 195px;
+  background-color: #f3603b;
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+}
+.botonGo:hover {
+  background-color: aqua;
+}
+.textoInferior {
+  color: white;
+  list-style: none;
+}
+
+.textoTipoParrafo2 {
+  width: 337px;
+  size: 16px;
+  font-style: normal;
+}
+.bloque {
+  margin-right: 25px;
+}
+.iconsNegro {
+  margin-top: 10px;
+  text-align: center;
+}
+.parrafoh3 {
+  size: 16.56px;
+}
+/* Lo Nuevo corregido hasta  */
+@media screen and (max-width: 375px) {
+  .header .header {
+    display: none;
+  }
+  .logo {
+    margin-left: 50px;
+  }
+
+  .section2 {
+    flex-direction: column-reverse;
+    margin: 0;
+    gap: 0;
+  }
+
+  .section2 img {
+    width: 100%;
+  }
+
+  .logo {
+    margin: 0;
+    width: 100%;
+  }
+
+  h2 {
+    width: 100%;
+  }
+  .section3 {
+    width: 100%;
+    margin: 0;
+    gap: 0;
+    flex-direction: column;
+  }
+  .fotos {
+    margin: 0;
+  }
+  .fotos img {
+    max-width: 30%;
+  }
+  .ali {
+    margin: 0;
+  }
+  .textoFinal {
+    margin: 0;
+    gap: 0;
+  }
+  .textoFinal :nth-child(2) {
+    display: none;
+  }
+  .textoFinal :nth-child(3) {
+    display: none;
+  }
+  .bodyNegro {
+    flex-direction: column;
+  }
+  .tituloFinal {
+    height: 380px;
+  }
+  .fotos :nth-child(2) {
+    display: none;
+  }
+  .fotos :nth-child(3) {
+    display: none;
+  }
+  .ali :nth-child(3) {
+    display: none;
+  }
+  .ali :nth-child(2) {
+    display: none;
+  }
+  .ultimoBoton {
+    height: 66px;
+    width: 100px;
+    bottom: 26px;
+  }
+}
