@@ -270,7 +270,9 @@ h2 {
     flex-direction: column;
   }
   .tituloFinal {
-    height: 380px;
+    height: unset;
+    margin: 0;
+    width: 100%;
   }
   .fotos :nth-child(2) {
     display: none;
@@ -285,8 +287,19 @@ h2 {
     display: none;
   }
   .ultimoBoton {
-    height: 66px;
+    height: 36px;
     width: 100px;
     bottom: 26px;
+    margin: 0;
+  }
+  .bodyNegro {
+    flex-direction: column-reverse;
+  }
+  .naranja {
+    flex-direction: column;
+    padding: 32px;
+  }
+  .botonGo {
+    margin-right: 0%;
   }
 }
